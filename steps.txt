@@ -1,4 +1,7 @@
-Extract "Viewhlp_Original.chm" using 7-zip GUI or 7za Command-Line
+Sample File:
+https://www.microsoft.com/en-us/download/details.aspx?id=21138
+
+Extract "Viewhlp_Original.chm" using 7-zip GUI or 7za Command-Line:
 
 7za.exe x HTML_Help_Workshop.zip
 7za.exe x Viewhlp_Original.zip
