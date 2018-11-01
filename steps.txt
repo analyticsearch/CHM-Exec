@@ -32,7 +32,7 @@ C:\Users\analyticsearch\Downloads\Viewhlp\$WWAssociativeLinks\Property
 
 -------------------------------------------------------------------------------------------------------------
 
-Comile "Viewhlp.hpp" to get "Viewhlp.chm"
+Compile "Viewhlp.hpp" to get "Viewhlp.chm"
 
 "C:\Program Files (x86)\HTML Help Workshop\hhc.exe" Viewhlp.hpp
 
