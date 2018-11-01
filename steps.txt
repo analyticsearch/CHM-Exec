@@ -1,4 +1,6 @@
-Extract "Viewhlp_Original.chm" using 7-zip
+Extract "Viewhlp_Original.chm" using 7-zip GUI or 7za Command-Line
+
+7za.exe x HTML_Help_Workshop.zip
 
 -------------------------------------------------------------------------------------------------------------
 
